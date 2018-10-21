@@ -1,0 +1,13 @@
+C:\MyWork\Game Engine\Game Engine\bin\Debug\Game Engine.exe.config
+C:\MyWork\Game Engine\Game Engine\bin\Debug\Game Engine.exe
+C:\MyWork\Game Engine\Game Engine\bin\Debug\Game Engine.pdb
+C:\MyWork\Game Engine\Game Engine\obj\Debug\Game Engine.csprojAssemblyReference.cache
+C:\MyWork\Game Engine\Game Engine\obj\Debug\Game Engine.csproj.CoreCompileInputs.cache
+C:\MyWork\Game Engine\Game Engine\obj\Debug\Game Engine.exe
+C:\MyWork\Game Engine\Game Engine\obj\Debug\Game Engine.pdb
+C:\MyWork\Game Engine\Game Engine\bin\Debug\OpenTK.dll
+C:\MyWork\Game Engine\Game Engine\bin\Debug\OpenTK.pdb
+C:\MyWork\Game Engine\Game Engine\bin\Debug\OpenTK.xml
+C:\MyWork\Game Engine\Game Engine\obj\Debug\Game Engine.csproj.CopyComplete
+C:\MyWork\Game Engine\Game Engine\bin\Debug\Components\Shaders\fragmentShader.frag
+C:\MyWork\Game Engine\Game Engine\bin\Debug\Components\Shaders\vertexShader.vert
