@@ -9,5 +9,5 @@ C:\MyWork\Game Engine\Game Engine\bin\Debug\OpenTK.dll
 C:\MyWork\Game Engine\Game Engine\bin\Debug\OpenTK.pdb
 C:\MyWork\Game Engine\Game Engine\bin\Debug\OpenTK.xml
 C:\MyWork\Game Engine\Game Engine\obj\Debug\Game Engine.csproj.CopyComplete
-C:\MyWork\Game Engine\Game Engine\bin\Debug\Components\Shaders\fragmentShader.frag
-C:\MyWork\Game Engine\Game Engine\bin\Debug\Components\Shaders\vertexShader.vert
+C:\MyWork\Game Engine\Game Engine\bin\Debug\Components\Shaders\fragmentShader.c
+C:\MyWork\Game Engine\Game Engine\bin\Debug\Components\Shaders\vertexShader.c

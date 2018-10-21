@@ -35,8 +35,8 @@ namespace Game_Engine {
 		static int CreateProgram() {
 			var program = GL.CreateProgram();
 			var shaders = new List<int>();
-			shaders.Add(CompileShader(ShaderType.VertexShader,@"Components\Shaders\vertexShader.vert"));
-			shaders.Add(CompileShader(ShaderType.FragmentShader,@"Components\Shaders\fragmentShader.frag"));
+			shaders.Add(CompileShader(ShaderType.VertexShader,@"Components\Shaders\vertexShader.c"));
+			shaders.Add(CompileShader(ShaderType.FragmentShader,@"Components\Shaders\fragmentShader.c"));
 
 			foreach (var shader in shaders) { GL.AttachShader(program,shader); }
 
