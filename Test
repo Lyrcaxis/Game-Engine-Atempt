@@ -1,0 +1,19 @@
+			//Buffer
+			GL.BindVertexArray(_vertexArray);
+			GL.BindBuffer(BufferTarget.ArrayBuffer,_vertexArray);
+			GL.NamedBufferStorage(_buffer,Vertex.Size * vertices.Length,vertices,BufferStorageFlags.MapWriteBit);
+
+			//Bind Position
+			GL.VertexArrayAttribBinding(_vertexArray,0,0);
+			GL.EnableVertexArrayAttrib(_vertexArray,0);
+			GL.VertexArrayAttribFormat(_vertexArray,0,4,VertexAttribType.Float,false,0);
+
+			//Bind Color 
+			GL.VertexArrayAttribBinding(_vertexArray,1,0);
+			GL.EnableVertexArrayAttrib(_vertexArray,1);
+			GL.VertexArrayAttribFormat(_vertexArray,1,4,VertexAttribType.Float,false,16);
+
+
+			//Bind mesh to Transform
+			GL.VertexArrayVertexBuffer(_vertexArray,0,_buffer,IntPtr.Zero,Vertex.Size);
+			Console.WriteLine("Initialized");
